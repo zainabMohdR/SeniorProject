@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_light"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        tools:context=".MainActivity"
+        android:weightSum="1">
+
+
+        <EditText
+            android:id="@+id/search"
+            style="@style/edittext_msg"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/searchusers">
+
+
+        </EditText>
+
+        <Button
+            style="@style/btn"
+            android:id="@+id/btnref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/history6"
+            android:layout_marginLeft="4dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        tools:context=".MainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_light"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:weightSum="1" >
+
+        <Button
+            style="@style/btn"
+            android:id="@+id/btnadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/add"
+            android:layout_marginLeft="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Add new user"
+            android:id="@+id/textView3"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/listView" />
+
+</LinearLayout>

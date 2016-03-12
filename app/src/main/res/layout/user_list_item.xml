@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:text="username"
+            android:textColor="@color/main_color_gray_dk"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/prof"
+            android:drawablePadding="10dp"
+            android:id="@+id/chatItem5" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            style="@style/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connect"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

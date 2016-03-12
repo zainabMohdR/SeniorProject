@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:text="Me"
+        android:textSize="18sp"
+        android:drawablePadding="10dp"
+        android:background="@color/main_color_green"
+        android:textColor="@color/white"
+        android:id="@+id/adduser"
+        android:singleLine="false" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:text="Maryam"
+        android:textColor="@color/main_color_gray_dk"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/prof"
+        android:drawablePadding="10dp"
+        android:id="@+id/chatItem1" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:text="Peers"
+        android:background="@color/main_color_green"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:drawablePadding="10dp"
+        android:id="@+id/chatItem2" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/white"
+        android:dividerHeight="5dp"
+        android:fastScrollEnabled="true"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        tools:listitem="@layout/user_list_item" >
+    </ListView>
+
+</LinearLayout>

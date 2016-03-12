@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="status_bar_color">#FF000000</color>
+    <color name="layout_border_color">#FF111111</color>
+    <color name="row_background">#ff00ffff</color>
+    <color name="my_msg_background">#FF494949</color>
+    <color name="in_msg_background">#FF0D4C63</color>
+
+    <color name="colorPrimary">#3366FF</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="white_smoke">#F7F7F7</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="main_color_green">#3366FF</color>
+    <color name="selected_green">#009933</color>
+    <color name="main_color_gray_dk">#3b3b3b</color>
+    <color name="main_color_gray_lt">#acacac</color>
+    <color name="main_color_gray">#7d7d7d</color>
+    <color name="gray_light">#e8e8e8</color>
+
+</resources>

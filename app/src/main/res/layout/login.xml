@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="20dp" >
+
+
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="231dp"
+            android:layout_height="231dp"
+            android:src="@drawable/logo_login"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/lbl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Ultimate Security"
+            android:textColor="@color/main_color_green"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lbl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  "
+            android:textColor="@color/main_color_green"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            style="@style/editext_graybg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_username"
+            android:hint="@string/email" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/etPassword"
+            style="@style/editext_graybg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_pwd"
+            android:hint="@string/password"
+            android:inputType="textPassword" >
+        </EditText>
+
+        <LinearLayout
+            android:id="@+id/main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnLogin"
+                style="@style/btn_white_large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/log_in"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lbforgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:textColor="@color/main_color_green"
+            android:textSize="20sp"
+            android:paddingTop="10dp" />
+    </LinearLayout>
+
+</ScrollView>

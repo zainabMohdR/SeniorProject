@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:text="RSA"
+        android:textColor="@color/main_color_gray_dk"
+        android:textSize="18sp"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/selected"
+        android:id="@+id/adduser"
+        android:singleLine="false" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:text="One Time Pad"
+        android:textColor="@color/main_color_gray_dk"
+        android:textSize="18sp"
+        android:drawablePadding="10dp"
+        android:id="@+id/chatItem1" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:text="Simple XOR"
+        android:textColor="@color/main_color_gray_dk"
+        android:textSize="18sp"
+        android:drawablePadding="10dp"
+        android:id="@+id/chatItem2" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="45dp" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:text="Try Quantum Protocol Simulation"
+        android:background="@color/main_color_green"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:drawablePadding="10dp"
+        android:id="@+id/chatItem3" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:text="BB84"
+        android:textColor="@color/main_color_gray_dk"
+        android:textSize="18sp"
+        android:drawablePadding="10dp"
+        android:id="@+id/chatItem4" />
+
+</LinearLayout>

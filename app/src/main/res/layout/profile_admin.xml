@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/main_color_green">
+
+            <TextView
+                android:id="@+id/lbusernamerr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/txt_20sp"
+                android:paddingTop="@dimen/pad_10dp"
+                android:singleLine="true"
+                android:paddingLeft="@dimen/pad_150dp"
+                android:drawableLeft="@drawable/edit45"
+                android:layout_gravity="right"
+                android:paddingRight="@dimen/pad_10dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="131dp"
+                android:src="@drawable/profile2"
+                android:layout_marginTop="@dimen/pad_20dp"
+
+                android:paddingTop="@dimen/pad_20dp" />
+
+            <TextView
+                android:id="@+id/lbusername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abdullah"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_20sp"
+                android:paddingTop="@dimen/pad_10dp"
+                android:textColorHighlight="@color/white_smoke"
+                android:singleLine="true"
+                android:paddingLeft="@dimen/pad_150dp" />
+
+            <TextView
+                android:id="@+id/lbemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abdullah_Naser@gmail.com"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_20sp"
+                android:paddingTop="@dimen/pad_10dp"
+                android:paddingLeft="@dimen/pad_60dp"
+                android:paddingBottom="@dimen/pad_20dp" />
+
+        </LinearLayout>
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/lbemail1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Manage Users"
+                android:drawableLeft="@drawable/profile27"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_20sp"
+                android:paddingTop="@dimen/pad_10dp"
+                android:paddingBottom="@dimen/pad_20dp"
+                android:paddingLeft="@dimen/pad_10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:gravity="fill_vertical" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/lbemail13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Manage Protocols"
+            android:drawableLeft="@drawable/configuration10"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txt_20sp"
+            android:paddingTop="@dimen/pad_10dp"
+            android:paddingBottom="@dimen/pad_20dp"
+            android:paddingLeft="@dimen/pad_10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:gravity="fill_vertical" />
+
+        <TextView
+            android:id="@+id/lbemail71"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Test Mode"
+            android:drawableLeft="@drawable/test_tube1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txt_20sp"
+            android:paddingTop="@dimen/pad_10dp"
+            android:paddingBottom="@dimen/pad_20dp"
+            android:paddingLeft="@dimen/pad_10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:gravity="fill_vertical" />
+
+        <TextView
+            android:id="@+id/lbemail2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Change Password"
+            android:textSize="@dimen/txt_20sp"
+            android:paddingLeft="@dimen/pad_10dp"
+            android:paddingBottom="@dimen/pad_20dp"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/key165"
+            android:gravity="fill_vertical"
+            android:paddingTop="@dimen/pad_10dp" />
+
+        <TextView
+            android:id="@+id/lbemail3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  View Chat History"
+            android:textSize="@dimen/txt_20sp"
+            android:paddingLeft="@dimen/pad_10dp"
+            android:paddingBottom="@dimen/pad_20dp"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/history6"
+            android:gravity="fill_vertical"
+            android:paddingTop="@dimen/pad_10dp" />
+
+    </LinearLayout>
+</ScrollView>

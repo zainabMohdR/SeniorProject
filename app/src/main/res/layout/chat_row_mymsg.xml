@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:gravity="right"
+    >
+
+	<LinearLayout
+		android:id="@+id/v1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:background="@drawable/chat_bubble_green"
+		android:gravity="center_vertical"
+		android:orientation="vertical"
+		android:paddingBottom="5dp"
+		android:paddingLeft="15dp"
+		android:paddingRight="45dp"
+		android:paddingTop="5dp">
+
+		<!--  Sender -->
+		<TextView android:id="@+id/sender"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Sender"
+			android:textColor="@color/white"
+			android:textSize="14sp"
+			/>
+
+		<!--  Content -->
+		<TextView android:id="@+id/msg_row"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="message here"
+			android:textColor="@color/white"
+			android:textSize="14sp"
+			/>
+	</LinearLayout>
+
+        
+		<TextView android:id="@+id/time"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="time"
+			android:textColor="@color/main_color_gray"
+			android:textSize="13sp"
+			android:layout_marginTop="5dp"
+			android:layout_marginRight="20dp"
+		/>
+
+
+</LinearLayout>
+

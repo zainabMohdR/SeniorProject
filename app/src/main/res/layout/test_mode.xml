@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:text="Statistical Information"
+        android:background="@color/main_color_green"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:drawablePadding="10dp"
+        android:id="@+id/stat"/>
+
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:text="Attempts: 6"
+        android:textColor="@color/main_color_gray_dk"
+        android:textSize="18sp"
+        android:drawablePadding="10dp"
+        android:id="@+id/chatItem1" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:text="Total Time: 3m"
+        android:textColor="@color/main_color_gray_dk"
+        android:textSize="18sp"
+        android:drawablePadding="10dp"
+        android:id="@+id/chatItem33" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:text="Real Message: Hello"
+        android:textColor="@color/main_color_gray_dk"
+        android:textSize="18sp"
+        android:drawablePadding="10dp"
+        android:id="@+id/chatItem93" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:text="Output message:"
+        android:textColor="@color/main_color_gray_dk"
+        android:textSize="18sp"
+        android:drawablePadding="10dp"
+        android:id="@+id/chatItem953" />
+
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:text="FolUy"
+        android:textColor="@color/main_color_green"
+        android:drawablePadding="10dp"
+        android:id="@+id/out"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:drawableRight="@drawable/load2"/>
+
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" />
+
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnStart"
+            style="@style/btn_white_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Start" />
+
+        <Button
+            android:id="@+id/btnStop"
+            style="@style/btn_white_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Stop"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>
